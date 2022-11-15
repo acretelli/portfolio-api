@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_page_home_headers",
+  "info": {
+    "displayName": "HomeHeader",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title",
+      "required": true,
+      "minLength": 5
+    },
+    "subtitle": {
+      "type": "string",
+      "minLength": 15,
+      "default": "subtitle"
+    },
+    "description": {
+      "type": "richtext",
+      "minLength": 40
+    },
+    "skills": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.skills"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "backgroundMedia": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

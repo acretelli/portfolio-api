@@ -4,18 +4,19 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home"
+    "displayName": "Home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "subtitle": {
-      "type": "string"
+    "HomeHeader": {
+      "displayName": "HomeHeader",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.home-header"
     }
   }
 }
